@@ -1,5 +1,6 @@
 ﻿#language: ru
-
+@ExportScenarios
+@IgnoreOnCIMainBuild
 @tree
 
 Функционал: Начальная загрузка поставщиков
