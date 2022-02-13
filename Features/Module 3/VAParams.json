@@ -3,10 +3,12 @@
 	"Lang": "ru",
 	"DebugLog": false,
 	"ВерсияVA": "ver 1.2.038.1",
+	"КаталогФич": "D:\\Cloud\\Dev\\GitRep\\TestQA\\Features_IRP\\External\\экспорт документов для проверки движений.feature",
 	"ДобавлятьКИмениСценарияУсловияВыгрузки": false,
 	"ЗаписыватьВидеоВыполненияТестов": true,
 	"КоличествоКадровВидеоВыполненияТестов": 5,
 	"КомандаЗаписиВидеоВыполненияТестов": "ffmpeg",
+	"КаталогДляЗаписиВидеоВыполненияТестов": "C:\\Users\\Bliz\\AppData\\Local\\Temp\\v8_BE4B_1e",
 	"ЗагрузкаФичПриОткрытии": 3,
 	"ВерсияПлатформыДляГенерацииEPF": "C:\\Program Files\\1cv8\\8.3.20.1674\\bin\\",
 	"ПоставщикПользовательскихНастроек": "NotUse",
@@ -18,7 +20,7 @@
 	"ОткрыватьНачальнуюСтраницуПриЗапуске": true,
 	"ПоказыватьМиниатюруКода": true,
 	"ЗаменятьТабыНаПробелы": false,
-	"ВычислятьВыраженияВФигурныхСкобках": false,
+	"ВычислятьВыраженияВФигурныхСкобках": true,
 	"ВыполнениеСценариев": {
 		"ВыполнятьШагиАссинхронно": false,
 		"ИнтервалВыполненияШагаЗаданныйПользователем": 0.1,
@@ -123,7 +125,8 @@
 	"КаталогиБиблиотек": [
 		"D:\\Cloud\\Dev\\Vanessa Automation\\vanessa-automation.1.2.038.1\\vanessa-automation\\features\\Libraries",
 		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Lessons\\Features\\External",
-		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Features\\External"
+		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Features\\External",
+		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Features_IRP\\External"
 	],
 	"СписокТеговИсключение": [
 		"IgnoreOnCIMainBuild"
@@ -165,7 +168,7 @@
 	"ПоискКартинокСПомощьюКомпонентыVanessaExt": true,
 	"ПорогПоискаКартинки": 0.99,
 	"ИгнорироватьОшибкиПоискаЭлементовВБраузере": false,
-	"ИспользоватьUIAutomation": true,
+	"ИспользоватьUIAutomation": false,
 	"КоэффициентМасштабированияЭкрана": 1,
 	"КомандаСделатьСкриншот": "\"C:\\Program Files (x86)\\IrfanView\\i_view32.exe\" /capture=1 /convert=",
 	"ИспользоватьКомпонентуVanessaExt": true,
