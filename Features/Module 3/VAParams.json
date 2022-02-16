@@ -3,7 +3,7 @@
 	"Lang": "ru",
 	"DebugLog": false,
 	"ВерсияVA": "ver 1.2.038.1",
-	"КаталогФич": "D:\\Cloud\\Dev\\GitRep\\TestQA\\Features_IRP\\External\\экспорт документов для проверки движений.feature",
+	"КаталогФич": "D:\\Cloud\\Dev\\GitRep\\TestQA\\Features\\Module 4\\Проверка отчета D2001 Продажи.feature",
 	"ДобавлятьКИмениСценарияУсловияВыгрузки": false,
 	"ЗаписыватьВидеоВыполненияТестов": true,
 	"КоличествоКадровВидеоВыполненияТестов": 5,
@@ -18,7 +18,7 @@
 	"ПоказыватьСтрокиПодсценариевVanessaEdittor": false,
 	"ПоказыватьЗначенияПеременныхВСтрокахРедактора": true,
 	"ОткрыватьНачальнуюСтраницуПриЗапуске": true,
-	"ПоказыватьМиниатюруКода": true,
+	"ПоказыватьМиниатюруКода": false,
 	"ЗаменятьТабыНаПробелы": false,
 	"ВычислятьВыраженияВФигурныхСкобках": true,
 	"ВыполнениеСценариев": {
@@ -126,7 +126,8 @@
 		"D:\\Cloud\\Dev\\Vanessa Automation\\vanessa-automation.1.2.038.1\\vanessa-automation\\features\\Libraries",
 		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Lessons\\Features\\External",
 		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Features\\External",
-		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Features_IRP\\External"
+		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Features_IRP\\External",
+		"D:\\Cloud\\Dev\\GitRep\\TestQA\\Features\\External"
 	],
 	"СписокТеговИсключение": [
 		"IgnoreOnCIMainBuild"
