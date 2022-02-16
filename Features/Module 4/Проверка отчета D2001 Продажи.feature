@@ -24,13 +24,25 @@
 	| 'Документы.SalesReturn.НайтиПоНомеру(2).ПолучитьОбъект().Записать(РежимЗаписиДокумента.Проведение);' |
 * Формирование отчета 
 	Дано Я открываю навигационную ссылку "e1cib/app/Report.D2001_Sales"	
+	И я активизирую окно текущего клиента тестирования
 	И я нажимаю на кнопку с именем 'FormChangeVariant'
 	И в таблице "SettingsComposerSettings" я перехожу к строке:
-		| 'Использование' | 'Структура отчета'   |
-		| 'Нет'           | '<Детальные записи>' |
-	И в таблице "SettingsComposerSettings" я устанавливаю флаг с именем 'SettingsComposerSettingsUse'
+		| 'Структура отчета'   |
+		| '<Детальные записи>' |
+	И в таблице "SettingsComposerSettings" я устанавливаю флаг с именем 'SettingsComposerSettingsUse'	
+	И в таблице "SettingsComposerSettingsDataParameters" я перехожу к строке:
+		| 'Параметр' |
+		| 'Период'   |
+	И в таблице "SettingsComposerSettingsDataParameters" я выбираю текущую строку
+	И в таблице "SettingsComposerSettingsDataParameters" я активизирую поле с именем "SettingsComposerSettingsDataParametersStartDate"
+	И Пауза 2		
+	И в таблице "SettingsComposerSettingsDataParameters" в поле с именем 'SettingsComposerSettingsDataParametersStartDate' я ввожу текст '01.02.2022 0:00:00'
+	И я перехожу к следующему реквизиту
+	И в таблице "SettingsComposerSettingsDataParameters" в поле с именем 'SettingsComposerSettingsDataParametersEndDate' я ввожу текст '28.02.2022 23:59:59'
+	И в таблице "SettingsComposerSettingsDataParameters" я завершаю редактирование строки
 	И я нажимаю на кнопку с именем 'FormEndEdit'
 	И я нажимаю на кнопку с именем 'FormGenerate'
+		
 * Проверка отчета с данными в макете
 	Дано Табличный документ "Result" равен макету "Макет_D2001 Продажи" по шаблону
 		
