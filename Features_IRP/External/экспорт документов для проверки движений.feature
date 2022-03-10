@@ -1,6 +1,7 @@
 ﻿#language: ru
 @ExportScenarios
 @tree
+@IgnoreOnCIMainBuild
 
 Функционал: экспорт документов для проверки движений
 

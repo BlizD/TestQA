@@ -1,7 +1,7 @@
 ﻿#language: ru
 @tree
 @ExportScenarios
-@IgnoreOnCIMainBuild
+
 
 Функционал: экспорт настроек картинок
 
