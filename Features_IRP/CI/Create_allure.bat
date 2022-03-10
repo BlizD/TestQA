@@ -1,0 +1,1 @@
+allure generate --clean D:\Cloud\Dev\Allure\Learn_Result && allure open
